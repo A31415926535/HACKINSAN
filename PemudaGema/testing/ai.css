@@ -1,0 +1,92 @@
+body {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #FFFFFF;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.split {
+    float: left;
+
+  }
+
+
+#chat {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    height: 400px;
+    overflow-y: scroll;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    position: relative;
+}
+
+.user {
+    align-self: flex-end;
+    background: #d1e7dd;
+}
+
+.ai {
+    align-self: flex-start;
+    background: #f8d7da;
+}
+
+.form-container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.form-container textarea {
+    width: 80%;
+    margin: 5px 0 5px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 50px;
+    padding: 10px;
+}
+
+.form-container .btn {
+    background-color: #04AA6D;
+    margin: 5px 0 5px 30px;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    height: 70px;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.form-container .btn:hover {
+    opacity: 1;
+}
